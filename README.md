@@ -81,5 +81,13 @@ You can use BioPython to parse or create an EMBL file. Note that BioPython will 
         CAA39891.1
         CAA39891
         Lactococcus lactis hypothetical protein
-        
+
+You can also convert files from one format to another:
+
+        from Bio import SeqIO
+        count = SeqIO.convert("someEmblFile.gb", "genbank", "someEmblFile.embl", "embl')
+        print("Successfully converted %i files" % count)
+
+Source: https://biopython.org/wiki/SeqIO
+
 Alternatively, this markdown file has three parts: [part 1](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt1.md), [part 2](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt2.md), [part 3](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt3.md). It explains how to parse out data from an EMBL file. It is well-commented, and points out where modifications can be made.
