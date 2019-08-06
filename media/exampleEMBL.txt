@@ -1,0 +1,46 @@
+ID   AACH01000000; SV 01; linear; genomic DNA; SET; FUN; 2808 SQ.
+XX
+AC   AACH01000000;
+XX
+PR   Project:PRJNA9601
+XX
+DT   24-MAY-2003 (Rel. 75, Created)
+DT   16-AUG-2014 (Rel. 121, Last updated, Version 3)
+XX
+DE   Saccharomyces mikatae IFO 1815, IFO 1815, WGS project AACH01000000 data
+XX
+KW   WGS.
+XX
+OS   Saccharomyces mikatae IFO 1815
+OC   Eukaryota; Fungi; Dikarya; Ascomycota; Saccharomycotina; Saccharomycetes;
+OC   Saccharomycetales; Saccharomycetaceae; Saccharomyces.
+XX
+RN   [1]
+RX   DOI; 10.1126/science.1084337.
+RX   PUBMED; 12775844.
+RA   Cliften P., Sudarsanam P., Desikan A., Fulton L., Fulton B., Majors J.,
+RA   Waterston R., Cohen B.A., Johnston M.;
+RT   "Finding functional features in Saccharomyces genomes by phylogenetic
+RT   footprinting";
+RL   Science, e1252229 301(5629):71-76(2003).
+XX
+RN   [2]
+RA   Cliften P.F., Johnston M.;
+RT   ;
+RL   Submitted (07-APR-2003) to the INSDC.
+RL   Genetics, Washington University School of Medicine, 4566 Scott Ave., Saint
+RL   Louis, MO 63110, USA
+XX
+DR   BioSample; SAMN02953591.
+DR   PubMed; 12775844.
+XX
+FH   Key             Location/Qualifiers
+FH
+FT   source          1..2808
+FT                   /organism="Saccharomyces mikatae IFO 1815"
+FT                   /strain="IFO 1815"
+FT                   /mol_type="genomic DNA"
+FT                   /db_xref="taxon:226126"
+XX
+WGS   AACH01000001-AACH01002808
+//
