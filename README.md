@@ -1,5 +1,5 @@
 # Genomic annotations and file formats
-A recent project involved manipulating and reformating common Bioinformatics file formats, such as Genbank, EMBL, and fasta. The required tasks were only vaguely connected, so this repository is a cookbook for file manipulation of common Bioinformatics file formats, including parsing and I/O. The general format is to explain the file format, explain possible tasks, and then detail how BioPython can be used to accomplish these goals, and at least one possibility for completing the task from scratch.
+A recent project involved manipulating and reformating common Bioinformatics file formats, such as Genbank, EMBL, and fasta. The required tasks were only vaguely connected, so this repository is a cookbook for file manipulation of common Bioinformatics file formats, including parsing and I/O. The general format is to explain the file format, explain possible tasks, and then detail how [BioPython]() can be used to accomplish these goals, and at least one possibility for completing the task from scratch.
 
 ## Fasta
 The [Fasta](https://zhanglab.ccmb.med.umich.edu/FASTA/) file format is a text file with the following requirements:
