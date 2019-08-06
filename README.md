@@ -82,4 +82,4 @@ You can use BioPython to parse or create an EMBL file. Note that BioPython will 
         CAA39891
         Lactococcus lactis hypothetical protein
         
-Alternatively, this [python script]() will parse out data from an EMBL file. It is well-commented, and points out where modifications can be made.
+Alternatively, this markdown file has three parts: [part 1](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt1.md), [part 2](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt2.md), [part 3](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt3.md). It explains how to parse out data from an EMBL file. It is well-commented, and points out where modifications can be made.
