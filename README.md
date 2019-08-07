@@ -46,7 +46,7 @@ Or via BioPython:
           print(len(seq_record))
         # output would be the header, the sequence characters, and the length
 
-## EMBL
+## EMBL & GenBank
 The EMBL file format is very similar to the GenBank file format. In addition to the nucleotide sequence and features, it contains additional information like the identity of the submitter, and publications associated with the nucleotide sequence. It has the general format of a two or threee character identifier for each newline, followed by 3 whitespace characters, followed by additional data. Tab characters are not allowed. [An example EMBL file is included with this repository](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/exampleEMBL.txt), and the following figure describes how the file must be formatted:
 ![](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/EMBL_image1.png)
 A non-exhaustive list of the character identifiers is:
@@ -81,6 +81,12 @@ You can use BioPython to parse or create an EMBL file. Note that BioPython will 
         CAA39891.1
         CAA39891
         Lactococcus lactis hypothetical protein
+        
+        # genbank is very similar
+        for record in SeqIO.parse("SomeFile.gb", "genbank"):
+          print(record.id)
+          print(record.name)
+          print(record.description)
 
 You can also convert files from one format to another:
 
