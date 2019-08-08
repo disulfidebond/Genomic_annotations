@@ -99,3 +99,5 @@ Source: https://biopython.org/wiki/SeqIO
 Alternatively, this markdown file has three parts: [part 1](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt1.md), [part 2](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt2.md), [part 3](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/parse_EMBL_file_pt3.md). It explains how to parse out data from an EMBL file. It is well-commented, and points out where modifications can be made.
 
 A more concise example is also available as a [markdown file](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/map_allele_seqs.md), or as a [python script](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/map_allele_seqs.py).
+
+A [jupyter notebook has also been created](https://github.com/disulfidebond/Genomic_annotations/blob/master/media/prep_IPD_data.ipynb) that demonstrates how to map EMBL data to sequences.
